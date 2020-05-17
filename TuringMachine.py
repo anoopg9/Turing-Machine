@@ -181,7 +181,7 @@ if __name__ == "__main__":
     m = TuringMachine(var, [6])
     #State 0
     m.addTransition(0, '1', 0, '1', 'R')
-    m.addTransition(0, '0', 1, 'X', 'R')
+    m.addTransition(0, '0', 1, 'X', 'L')
     m.addTransition(0, 'X', 0, 'X', 'R')
     m.addTransition(0, '_', 5, '_', 'L')
 
